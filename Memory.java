@@ -1,11 +1,11 @@
 import java.util.Arrays;
 import java.util.Random;
-public class Measure
+public class TimeMemory
 {
 	// Stýristærðir fyrir keyrslu
-	static	int Size	=10000;
+	static	int Size	=1000000;
 	static	int Number	=10;
-	static 	int Range	=1000;
+	static 	int Range	=10;
 	public static void main(String[] args)
 	{
 //Generate Input
@@ -43,7 +43,7 @@ public class Measure
 			for(int j=0;j<10;j++)
 				evenarray[j][i]=j;
 		}
-//Declaring measurements
+//*Declaring measurements
 		long[] randomtime = new long[11];
 		long[] sortedtime = new long[11];
 		long[] inverstime = new long[11];
@@ -53,8 +53,7 @@ public class Measure
 		Runtime rt= Runtime.getRuntime();
 
 		System.out.println("Input generated starting tests");
-//Running tests 
-
+//Running tests
 		System.gc();
 		randomtime[1]=-System.nanoTime();
 		memoryuse[1]-=rt.totalMemory()-rt.freeMemory();
@@ -72,8 +71,7 @@ public class Measure
 		Sorter.s1(evenarray[1]);
 		equalstime[1]+=System.nanoTime();
 //		System.out.println(randomtime[1]);
-//*/
-
+/*
 		System.gc();
 		randomtime[2]=-System.nanoTime();
 		memoryuse[2]-=rt.totalMemory()-rt.freeMemory();
@@ -91,8 +89,6 @@ public class Measure
 		Sorter.s1(evenarray[2]);
 		equalstime[2]+=System.nanoTime();
 //		System.out.println(randomtime[2]);
-//*/
-/*
 		
 		System.gc();
 		randomtime[3]=-System.nanoTime();
@@ -111,8 +107,6 @@ public class Measure
 		Sorter.s1(evenarray[3]);
 		equalstime[3]+=System.nanoTime();
 //		System.out.println(randomtime[3]);
-//*/
-/*
 		
 		System.gc();
 		randomtime[4]=-System.nanoTime();
@@ -131,9 +125,7 @@ public class Measure
 		Sorter.s1(evenarray[4]);
 		equalstime[4]+=System.nanoTime();
 //		System.out.println(randomtime[4]);
-//*/
-
-		
+*/		
 		System.gc();
 		randomtime[5]=-System.nanoTime();
 		memoryuse[5]-=rt.totalMemory()-rt.freeMemory();
@@ -151,8 +143,6 @@ public class Measure
 		Sorter.s1(evenarray[5]);
 		equalstime[5]+=System.nanoTime();
 //		System.out.println(randomtime[5]);
-//*/
-
 		
 		System.gc();
 		randomtime[6]=-System.nanoTime();
@@ -171,9 +161,7 @@ public class Measure
 		Sorter.s1(evenarray[6]);
 		equalstime[6]+=System.nanoTime();
 //		System.out.println(randomtime[6]);
-//*/
-/*
-		
+/*		
 		System.gc();
 		randomtime[7]=-System.nanoTime();
 		memoryuse[7]-=rt.totalMemory()-rt.freeMemory();
@@ -191,9 +179,7 @@ public class Measure
 		Sorter.s1(evenarray[7]);
 		equalstime[7]+=System.nanoTime();
 //		System.out.println(randomtime[7]);
-//*/
-
-		
+*/		
 		System.gc();
 		randomtime[8]=-System.nanoTime();
 		memoryuse[8]-=rt.totalMemory()-rt.freeMemory();
@@ -211,9 +197,7 @@ public class Measure
 		Sorter.s1(evenarray[8]);
 		equalstime[8]+=System.nanoTime();
 //		System.out.println(randomtime[8]);
-//*/
-
-		
+//*/		
 		System.gc();
 		randomtime[9]=-System.nanoTime();
 		memoryuse[9]-=rt.totalMemory()-rt.freeMemory();
@@ -231,9 +215,7 @@ public class Measure
 		Sorter.s1(evenarray[9]);
 		equalstime[9]+=System.nanoTime();
 //		System.out.println(randomtime[9]);
-//*/
-/*
-		
+/*		
 		System.gc();
 		randomtime[10]=-System.nanoTime();
 		memoryuse[10]-=rt.totalMemory()-rt.freeMemory();
@@ -253,6 +235,8 @@ public class Measure
 //		System.out.println(randomtime[0]);
 //		*/
 		for(int i=1;i<11;i++)
-			System.out.printf("s%02d & %12d & %12d & %10d & %10d & %10d\\\\%n",i,randomtime[i]/Number,memoryuse[i],sortedtime[i],inverstime[i],equalstime[i]);
+		{
+				System.out.printf("s%d & %12d & %12d & %10d & %10d & %10d     \\\\%n",i,randomtime[i]/Number,memoryuse[i],sortedtime[i],inverstime[i],equalstime[i]);
+		}
 	}
 }

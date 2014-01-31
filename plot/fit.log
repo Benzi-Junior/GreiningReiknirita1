@@ -1,0 +1,388 @@
+
+
+*******************************************************************************
+Fri Jan 31 08:28:07 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:2
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+
+
+*******************************************************************************
+Fri Jan 31 08:29:40 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:2
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Jan 31 08:29:59 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:2
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.4799e+18        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.4451e+06
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 1.5992e+16
+rel. change during last iteration : -1.82672e-06
+
+degrees of freedom    (FIT_NDF)                        : 3537
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.12634e+06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.52134e+12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 10.9519          +/- 0.03499      (0.3195%)
+b               = 1.00288          +/- 7.15e+04     (7.13e+06%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Fri Jan 31 08:32:45 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:2
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.5992e+16        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.4451e+06
+
+initial set of free parameter values
+
+a               = 10.9519
+b               = 1.00288
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.5992e+16
+rel. change during last iteration : -2.07354e-13
+
+degrees of freedom    (FIT_NDF)                        : 3537
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.12634e+06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.52134e+12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 10.9519          +/- 0.03499      (0.3195%)
+b               = 1.00291          +/- 7.15e+04     (7.129e+06%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Fri Jan 31 08:42:42 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:2
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+
+
+*******************************************************************************
+Fri Jan 31 08:42:55 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:2
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.5992e+16        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.4451e+06
+
+initial set of free parameter values
+
+a               = 10.9519
+b               = 1.00291
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.5992e+16
+rel. change during last iteration : -2.14482e-13
+
+degrees of freedom    (FIT_NDF)                        : 3537
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.12634e+06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.52134e+12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 10.9519          +/- 0.03499      (0.3195%)
+b               = 1.00294          +/- 7.15e+04     (7.129e+06%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
+
+
+*******************************************************************************
+Fri Jan 31 08:48:14 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+
+
+*******************************************************************************
+Fri Jan 31 08:48:28 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.77288e+18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.4451e+06
+
+initial set of free parameter values
+
+a               = 10.9519
+b               = 1.00294
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 2.87166e-44
+abs. change during last iteration : -5.1504e-27
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = -2.41479e-30   
+b               = 5.69834e-24    
+
+
+*******************************************************************************
+Fri Jan 31 08:48:36 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.87166e-44       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.4451e+06
+
+initial set of free parameter values
+
+a               = -2.41479e-30
+b               = 5.69834e-24
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.87166e-44
+abs. change during last iteration : -1.65935e-52
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = -2.41489e-30   
+b               = 5.69834e-24    
+
+
+*******************************************************************************
+Fri Jan 31 08:48:38 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.87166e-44       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.4451e+06
+
+initial set of free parameter values
+
+a               = -2.41489e-30
+b               = 5.69834e-24
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.87166e-44
+abs. change during last iteration : -2.43224e-53
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = -2.41489e-30   
+b               = 5.69834e-24    
+
+
+*******************************************************************************
+Fri Jan 31 08:49:33 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+
+
+*******************************************************************************
+Fri Jan 31 08:49:40 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Jan 31 08:50:05 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Jan 31 08:51:02 2014
+
+
+FIT:    data read from "Timeplot.dat" using 1:4
+        format = x:z
+        #datapoints = 3539
+        residuals are weighted equally (unit weight)
+
+function used for fitting: line(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.4781e+16        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.4451e+06
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 884.367
+rel. change during last iteration : -9.13555e-06
+
+degrees of freedom    (FIT_NDF)                        : 3537
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.500033
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.250033
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.23787e-07     +/- 8.228e-09    (1.941%)
+b               = 0.999995         +/- 0.01681      (1.681%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.866  1.000 
