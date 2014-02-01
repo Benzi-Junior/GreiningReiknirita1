@@ -22,6 +22,12 @@
  \node[draw] (Radix)	[below=of s9] {Radix	};
  \node[draw] (Bucket)	[below=of s10]{Bucket	};
 \path[-]
+ (s1) edge (Heap)
+ (s2) edge (Insertion)
+ (s3) edge (Q3)
+ (s5) edge (Merge)
+ (s6) edge (Bucket)
+ (s8) edge (Radix)
  (s9) edge (Counting)
 ;
 \end{tikzpicture}
